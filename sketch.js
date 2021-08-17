@@ -25,7 +25,7 @@ function setup() {
 function draw() {
   background(0,0,0);  
   text("BULLET TEST SIMULATOR 1.0",10,300)
-  text("made by Ishan",10,350)
+  text("made by Me",10,350)
   if (bullet.x - wall.x < wall.width/2 + bullet.width/2
     && wall.x - bullet.x < wall.width/2 + bullet.width/2
     && bullet.y - wall.y < wall.height/2 + bullet.height/2
